@@ -1,0 +1,81 @@
+.navBrand {
+    display: flex !important;
+    align-items: center !important;
+    margin-left: 40px !important;
+}
+
+.logoTitle {
+    border-left: 3px solid #E5E5E5;
+    padding-left: 15px;
+    margin-left: 15px;
+}
+
+.navbar-light .navbar-toggler {
+    border: none !important;
+    color: #fff !important;
+}
+
+.navButtons {
+    border: none !important;
+    outline: none !important;
+    background-color: #fff !important;
+    color: #293E6F !important;
+    font-weight: 500 !important;
+    font-size: 17px !important;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    display: block !important;
+}
+
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    box-shadow: none !important;
+}
+
+.djsce {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    font-family: "Poppins";
+    color: #293E6F;
+}
+
+.it {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    font-family: "Poppins";
+    color: #293E6F;
+}
+
+@media screen and ( max-width: 1198px) {
+    .navBrand {
+        display: flex !important;
+        align-items: center !important;
+        margin-left: 0px !important;
+    }
+    .logoImage {
+        display: none !important;
+    }
+    .navbar {
+        padding: 0px !important;
+    }
+    .logoTitle {
+        border-left: none;
+        padding-left: 0px;
+        margin-left: 10px;
+    }
+    .navButtons {
+        text-align: start !important;
+        width: 100% !important;
+        border-top: 1px solid #E5E5E5 !important;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+        padding-left: 15px !important;
+    }
+    .djsce {
+        font-size: 15px;
+    }
+    .it {
+        font-size: 15px;
+    }
+}

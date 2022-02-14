@@ -1,0 +1,16 @@
+.registrationButtons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boldTexts {
+    color: black;
+    font-weight: bold;
+}
+
+@media(max-width: 540px) {
+    .registrationButtons {
+        display: block;
+        text-align: center;
+    }
+}

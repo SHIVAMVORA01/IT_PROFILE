@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container, .container-md, .container-sm {
+  max-width: 90% !important;
+}
+
+.profileCard{
+  width: 25% !important;
+  flex: none !important;
+}
+
+.candidateName{
+  height: 80px !important;
+}
+
+@media screen and (max-width: 1241px) {
+  .profileCard{
+    width: 33.33% !important;
+    flex: none !important;
+  }
+}
+@media screen and (max-width: 978px) {
+  .profileCard{
+    width: 50% !important;
+    flex: none !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .profileCard{
+    width: 80% !important;
+    margin: 0 auto;
+    flex: none !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .profileCard{
+    width: 100% !important;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+    flex: none !important;
+  }
+  .candidateName{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    font-size: 18px !important;
+    width: 100% !important;
+  }
+}
+
+
+/* details page */
+
+.detailsPageImage img{
+  width: 70%;
+
+}
+
+@media screen and (max-width: 1200px) {
+  .detailsPageImage img{
+    width: 100%;
+  
+  }
+  }
+
+@media screen and (max-width: 700px) {
+.detailsPageImage img{
+  width: 90%;
+
+}
+}

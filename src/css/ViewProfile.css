@@ -1,0 +1,153 @@
+.sectionHeadings {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.4px;
+    line-height: 36px;
+    letter-spacing: 0.09em;
+    color: #293E6F;
+    text-transform: capitalize;
+}
+
+.sectionHeadings1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 0.09em;
+    color: #293E6F;
+    text-transform: capitalize;
+}
+
+.name {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #293E6F;
+}
+
+.year {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #293E6F;
+}
+
+.titles {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 27px;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.customUploadTag {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.mainBox {
+    background: #FFFFFF !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 15px !important;
+    margin-top: 5%;
+}
+
+.customToastMessage {
+    position: fixed;
+    bottom: 2%;
+    right: 3%;
+}
+
+.subHeadings1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+    letter-spacing: 0.09em;
+    color: black;
+}
+
+.subHeadings2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.8px;
+    line-height: 29px;
+    letter-spacing: 0.09em;
+    color: #293E6F;
+}
+
+.heading1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 29px;
+    color: #293E6F;
+}
+
+.subTitle1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 48px;
+    color: #293E6F;
+}
+
+.displayCard {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.displayCardColumn {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.profilePictures {
+    border-radius: 50%;
+}
+
+@media screen and ( max-width: 600px) {
+    .displayCard {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5%;
+        margin-left: 0%;
+    }
+    .displayCardColumn {
+        margin-top: 5%;
+    }
+    .sectionHeadings {
+        font-size: 13.2px;
+    }
+    .subHeadings2 {
+        font-size: 12px;
+    }
+    .subHeadings1 {
+        font-size: 12.6px;
+    }
+    .titles {
+        font-size: 12px;
+    }
+}

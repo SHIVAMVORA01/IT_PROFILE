@@ -1,0 +1,304 @@
+.contactHeading {
+    font-family: 'Poppins';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #293E6F;
+    margin-bottom: 16px !important;
+}
+
+.email {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #293E6F;
+    margin-top: 0x !important;
+    margin-bottom: 0px !important;
+    margin-left: 20px;
+}
+
+.faculty {
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #293E6F;
+    margin-top: 0x !important;
+    margin-bottom: 0px !important;
+}
+
+.phoneNumber {
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #293E6F;
+    margin-top: 0x !important;
+    margin-bottom: 0px !important;
+}
+
+.paragraph {
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #293E6F;
+    margin-top: 30px;
+    width: 300px;
+}
+
+.contactus {
+    margin-top: 0.5rem !important;
+}
+
+.ourteam {
+    margin-top: 0.5rem !important;
+}
+
+.user {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.username {
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(41, 62, 111, 0.8);
+    margin-top: 10px;
+}
+
+.role {
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(235, 96, 111, 1);
+}
+
+.footer {
+    background-color: #BDDEE4;
+}
+
+.footerLine {
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(41, 62, 111, 0.8);
+    margin-bottom: 0px !important;
+}
+
+@media screen and ( min-width: 780px) {
+    .firstPara {
+        border-right: 1px solid #293E6F;
+    }
+}
+
+@media screen and ( max-width: 780px) {
+    .contactHeading {
+        font-weight: 600;
+        margin-top: 30px;
+        border-top: 1px solid #293E6F;
+        border-bottom: 1px solid #293E6F;
+    }
+    .footerLine {
+        font-size: 20px;
+    }
+}
+
+@media screen and ( min-width: 500px) {
+    .buttonDiv {
+        text-align: start;
+    }
+}
+
+.accordion-button {
+    background-color: #ACD6DD !important;
+    outline: none !important;
+    box-shadow: none !important;
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18.8px !important;
+    line-height: 29px !important;
+    color: #293E6F !important;
+}
+
+.accordion-button :focus {
+    background-color: #ACD6DD !important;
+    outline: none !important;
+    box-shadow: none !important;
+    color: white !important;
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 18.8px !important;
+    line-height: 29px !important;
+    color: #293E6F !important;
+}
+
+.welcomeDiv {
+    background: linear-gradient(180deg, #9ECFD7 0%, rgba(158, 207, 215, 0.8) 99.26%);
+}
+
+.mainHeading {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 72px;
+    color: #293E6F;
+}
+
+.subHeadingsProfile {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 57px;
+    color: #293E6F;
+}
+
+.subHeadingsProfile1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18.8px;
+    line-height: 29px;
+    color: #293E6F;
+}
+
+.divHeadings {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+    color: #293E6F;
+}
+
+.faqAccordian {
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 45px !important;
+    color: #293E6F !important;
+}
+
+.accordion-body {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16.8px;
+    line-height: 29px;
+    text-align: justify;
+    color: #293E6F !important;
+}
+
+.welcomeImageDiv {
+    display: flex;
+    align-items: center;
+}
+
+.welcomeImage {
+    height: 90%;
+    width: 90%;
+}
+
+.welcomeImage1 {
+    height: 100%;
+    width: 100%;
+}
+
+.aboutDiv {
+    display: flex;
+    align-items: center;
+}
+
+.titleDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.introPara {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16.8px;
+    line-height: 29px;
+    text-align: justify;
+    color: #293E6F;
+}
+
+.landingPara {
+    margin-top: 7%;
+}
+
+.landingPara1 {
+    margin-top: 5%;
+}
+
+@media (max-width: 768px) {
+    .titleDiv {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 3%;
+    }
+    .subHeadingsProfile {
+        text-align: start;
+    }
+    .landingPara {
+        text-align: start;
+        margin-top: 5%;
+    }
+    .landingPara1 {
+        text-align: start;
+        margin-top: 5%;
+    }
+    .welcomeImage {
+        display: none;
+    }
+    .welcomeImage1 {
+        display: none;
+    }
+    .titleDiv {
+        align-items: center;
+    }
+    .colImageDiv {
+        display: none !important;
+    }
+}

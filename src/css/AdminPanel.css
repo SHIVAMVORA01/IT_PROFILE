@@ -1,0 +1,60 @@
+.bn31 {
+  background-color: rgb(5, 5, 88);
+  border-radius: 40px;
+  box-sizing: border-box;
+  color: rgb(5, 5, 88);
+  display: inline-block;
+  height: 40px;
+  font-size: 1.4em;
+  padding: 4px;
+  position: relative;
+  text-decoration: none;
+  width: 5em;
+  z-index: 2;
+  margin-top: 10px;
+  margin-top: 20px;
+}
+
+.bn31:hover {
+  color: #fff;
+}
+
+.bn31 .bn31span {
+  align-items: center;
+  background: #fff;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: background 0.5s ease;
+  width: 100%;
+}
+
+.bn31:hover .bn31span {
+  background: transparent;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SearchBar {
+  border-bottom: 2px solid lightgray;
+  margin-left: 10%;
+  width: 60%;
+  padding-left: 1%;
+}
+
+@media screen and ( max-width :900px) {
+  .search {
+    padding-left: 2%;
+  }
+  .SearchBar {
+    border-bottom: 2px solid lightgray;
+    margin-left: 0%;
+    width: 100%;
+    padding-left: 1%;
+  }
+}

@@ -1,0 +1,255 @@
+.deleteButton {
+    display: flex;
+    justify-content: center;
+}
+
+.Profile {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ProfileImage {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.TabButtons {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #524F63;
+    background-color: #FFFFFF;
+}
+
+.mainDocumentDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.documentDiv {
+    width: 50%;
+}
+
+.mainContainer {
+    padding: 20px;
+    margin-top: 3%;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+}
+
+.documentIconsDiv .eyeIcon {
+    font-size: 28px;
+    margin-right: 8px;
+    margin-left: 12px
+}
+
+.mainBox {
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.headings {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 36px;
+    color: #293E6F;
+}
+
+.blueHeadings {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #293E6F;
+}
+
+.blueSubheadings {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #293E6F;
+}
+
+.blueSubheadings1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #293E6F;
+}
+
+.subHeadings {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.subHeadings {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.customInputField {
+    background: #FFFFFF;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.ProfilePicCard {
+    background: #FFFFFF;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 23px;
+}
+
+.customToastMessage {
+    position: fixed;
+    bottom: 2%;
+    right: 3%;
+    z-index: 2;
+}
+
+.profilePicDiv {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;
+    margin-top: 3%;
+}
+
+.BoldTextHeading {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+}
+
+.invalidWarning {
+    color: red;
+}
+
+.form-control {
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-size: 14px !important;
+    color: #000000 !important;
+}
+
+.bottonTabColumn {
+    position: fixed !important;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    border-color: none;
+}
+
+.heading1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 72px;
+    color: #293E6F;
+}
+
+.subTitle1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 48px;
+    color: #293E6F;
+}
+
+.displayCard {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5%;
+}
+
+.displayCardColumn {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.profilePictures {
+    border-radius: 50%;
+    margin-top: 20%;
+}
+
+@media (max-width: 785px) {
+    .bottonTabColumn {
+        position: inherit !important;
+        display: none !important;
+    }
+}
+
+@media(max-width: 600px) {
+
+    .headings{
+        font-size: 16.8px;
+    }
+    .bottonTabColumn {
+        position: inherit !important;
+        display: none !important;
+    }
+    .container {
+        width: 100% !important;
+    }
+    .mainContainer {
+        padding: 10px;
+    }
+    .mainDocumentDiv {
+        display: block;
+    }
+    .documentDiv {
+        width: 100% !important;
+    }
+    .documentIconsDiv {
+        margin-top: 5%;
+    }
+    .documentIconsDiv .eyeIcon {
+        margin-left: 0px
+    }
+    .mainBox {
+        padding: 10px;
+    }
+    .displayCard {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0%;
+    }
+}
+
+@media(max-width: 555px) {
+    .Profile {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ProfilePicCard {
+        margin-top: 30px;
+    }
+}
